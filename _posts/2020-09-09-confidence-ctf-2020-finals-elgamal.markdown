@@ -316,7 +316,7 @@ y^2 = x^3 + 7 (mod 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFF
 See this? `a == 0`! And we also could make `b == 0`, using Invalid curve attack. With `a == 0` and `b == 0` our equation becomes "more simple": 
 
 ```
-y^2 == x^3 (mod 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F)
+y^2 = x^3 (mod 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F)
 ```
 
 So, we can send a point from a [cusp](https://en.wikipedia.org/wiki/Cusp_(singularity)):
