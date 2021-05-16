@@ -234,13 +234,13 @@ After some searching we can find a paper [Register Synthesis for Algebraic Feedb
 Registers Based on Non-Primes](http://cs.engr.uky.edu/~klapper/pdf/nfcsr.pdf) by Andrew Klapper and Jinzhong Xu. It suggests an algorithm to reconstruct the FCSR:
 
 [
-    ![task title](/assets/2021-05-15-m0lecon-ctf-2021-teaser-obscurity/algorithm1.png)
+    ![algorithm1](/assets/2021-05-15-m0lecon-ctf-2021-teaser-obscurity/algorithm1.png)
 ](/assets/2021-05-15-m0lecon-ctf-2021-teaser-obscurity/algorithm1.png)
 
 It requires operation with [p-adic numbers](https://en.wikipedia.org/wiki/P-adic_number). So I thought it's too tricky to implement and found another paper [Cryptanalysis Based on 2-Adic Rational Approximation](https://link.springer.com/content/pdf/10.1007%2F3-540-44750-4_21.pdf) by Andrew Klapper and Mark Goresky. Their algorithm works with `2-adic` numbers, that is ordinary numbers built from bits:
 
 [
-    ![task title](/assets/2021-05-15-m0lecon-ctf-2021-teaser-obscurity/algorithm2.png)
+    ![algorithm2](/assets/2021-05-15-m0lecon-ctf-2021-teaser-obscurity/algorithm2.png)
 ](/assets/2021-05-15-m0lecon-ctf-2021-teaser-obscurity/algorithm2.png)
 
 Looks easy to implement, so let's do it! I will use `sage`:
