@@ -1,0 +1,8 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'blog of keltecc'
+theme = 'no-style-please'
+titleCaseStyle = 'none'
+
+[taxonomies]
+  tag = 'tags'
