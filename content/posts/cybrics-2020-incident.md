@@ -1,11 +1,8 @@
 +++
 title = 'CyBRICS CTF 2020 — Incident'
 date = 2020-07-28T13:32:38+05:00
-draft = false
 tags = ['ctf', 'writeup', 'forensics', 'reverse']
-mathjax = true
 toc = true
-tocBorder = true
 +++
 
 ![task title](/assets/cybrics-2020-incident/task-title.png)

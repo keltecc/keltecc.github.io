@@ -1,20 +1,17 @@
 +++
 title = 'm0leCon CTF 2021 Teaser — Obscurity'
 date = 2021-05-15T20:59:20+05:00
-draft = false
 tags = ['ctf', 'writeup', 'crypto']
-mathjax = true
 toc = true
-tocBorder = true
 +++
 
-## Challenge information
+## Initial version
 
 ![task title](/assets/m0lecon-2021-obscurity/task-title.png)
 
-## Files
+### Files
 
-### **server.py**
+**server.py**
 
 ```python
 import random
@@ -72,7 +69,7 @@ res = xor(key[:-65],pt).hex()
 print(res)
 ```
 
-## Solution
+### Solution
 
 **The first variant of the challenge. It has a bug, which leads to an unintended solution. I will describe it briefly.**
 
@@ -143,7 +140,7 @@ for start in range(1, len(keystream)):
 
 After some tries the flag will be printed.
 
-## Flag
+### Flag
 
 ```
 ptm{pl3453_r3p0r7_y0ur_un1n73nd3d_70_@mr96}
@@ -151,13 +148,13 @@ ptm{pl3453_r3p0r7_y0ur_un1n73nd3d_70_@mr96}
 
 ---
 
-## Challenge information
+## Patched version
 
 ![task title](/assets/m0lecon-2021-obscurity/task-title-fixed.png)
 
-## Files
+### Files
 
-### **chall.py**
+**chall.py**
 
 ```python
 import random
@@ -200,13 +197,13 @@ res = xor(key,pt).hex()
 print(res)
 ```
 
-### **output.txt**
+**output.txt**
 
 ```
 d51664d413ba62984baf680bf98d9cf797f6da473adb19cd041220ae25cc0a9e7cdce8588f26862cc2d270d9373c17db678d69ffb4280371927cf9144c0bbd526c721d54c3c8f1de1f3fa6e5c84ece35c1
 ```
 
-## Solution
+### Solution
 
 **The second variant of the challenge. The unintended solution was fixed.**
 
@@ -318,7 +315,7 @@ flag = xor_bits(key_bits[1:], ct_bits)
 print(bits_to_bytes(flag))
 ```
 
-## Flag
+### Flag
 
 ```
 Look, a new flag: ptm{n0w_r3p0r7_7h3_53c0nd_un1n73nd3d_70_@mr96_1cdf85df0860893c}

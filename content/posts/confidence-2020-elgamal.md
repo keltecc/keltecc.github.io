@@ -1,11 +1,8 @@
 +++
 title = 'CONFidence CTF 2020 Finals — ElGamal'
 date = 2020-09-09T01:05:54+05:00
-draft = false
 tags = ['ctf', 'writeup', 'crypto']
-mathjax = true
 toc = true
-tocBorder = true
 +++
 
 ![task title](/assets/confidence-2020-elgamal/task-title.png)

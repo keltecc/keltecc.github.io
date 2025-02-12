@@ -1,7 +1,6 @@
 +++
 title = 'FAUST CTF 2020 — Cartography'
 date = 2020-07-20T22:42:25+05:00
-draft = false
 tags = ['ctf', 'writeup', 'pwn']
 +++
 

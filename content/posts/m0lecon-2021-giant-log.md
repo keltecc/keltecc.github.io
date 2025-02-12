@@ -1,20 +1,15 @@
 +++
 title = 'm0leCon CTF 2021 Teaser — Giant log'
 date = 2021-05-15T17:18:14+05:00
-draft = false
 tags = ['ctf', 'writeup', 'crypto']
-mathjax = true
 toc = true
-tocBorder = true
 +++
-
-## Challenge information
 
 ![task title](/assets/m0lecon-2021-giant-log/task-title.png)
 
 ## Files
 
-### **chall.py**:
+**chall.py**:
 
 ```python
 import random

@@ -1,9 +1,7 @@
 +++
 title = 'm0leCon CTF 2020 Teaser — King Exchange'
 date = 2020-05-24T14:31:17+05:00
-draft = false
 tags = ['ctf', 'writeup', 'crypto']
-mathjax = true
 +++
 
 ![task title](/assets/m0lecon-2020-king-exchange/task-title.png)
