@@ -2,9 +2,9 @@
 title = "posts"
 
   [entries.post_list]
-  limit = 15
+  limit = 1000
   show_more = true
-  show_more_text = "more posts..."
+  show_more_text = "all posts..."
   show_more_url = "posts"
 
 [[entries]]
