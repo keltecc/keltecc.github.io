@@ -11,7 +11,7 @@ A challenge from [FAUST CTF 2022](https://ctftime.org/event/1598) attack-defense
 
 The service is located at 1338 TCP port.
 
-According to source file [app.py](/assets/faust-2022-notes-from-the-future/app.py) this is a simple key-value storage, based on filesystem. Users can perform two operations on _notes_:
+According to source file [app.py](app.py) this is a simple key-value storage, based on filesystem. Users can perform two operations on _notes_:
 
 - list all existing notes (`ls`)
 - put their note with name and some content (`create`)

@@ -102,7 +102,7 @@ First we carefully read registration service, startup scripts, database and ngin
 
 2. I started to examine image-builder service, since it contains impressive bash script and looks suspicious overall
 
-After some time we decided that policy was implemented correctly, assuming that [cesanta/docker_auth](https://github.com/cesanta/docker_auth) is safe and does not contain any 0day vulnerabilities. On the other hand the [build.sh](/assets/ctfzone-2024-registry/build.sh) script is entirely handwritten and contains interesting part:
+After some time we decided that policy was implemented correctly, assuming that [cesanta/docker_auth](https://github.com/cesanta/docker_auth) is safe and does not contain any 0day vulnerabilities. On the other hand the [build.sh](build.sh) script is entirely handwritten and contains interesting part:
 
 ```sh
 LAYERS=$(jq -r ".rootfs.diff_ids[1:$MAX_LAYERS_COUNT][]" $IMAGE_DIR/$CONFIGNAME)

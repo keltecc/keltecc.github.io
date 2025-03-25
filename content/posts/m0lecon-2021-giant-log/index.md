@@ -5,7 +5,7 @@ tags = ['ctf', 'writeup', 'crypto']
 toc = true
 +++
 
-![task title](/assets/m0lecon-2021-giant-log/task-title.png)
+![task title](task-title.png)
 
 ## Files
 

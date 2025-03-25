@@ -4,7 +4,7 @@ date = 2020-05-24T14:31:17+05:00
 tags = ['ctf', 'writeup', 'crypto']
 +++
 
-![task title](/assets/m0lecon-2020-king-exchange/task-title.png)
+![task title](task-title.png)
 
 The given zip-archive contains two files: a python script and its output.
 
@@ -125,7 +125,7 @@ If we set $d = 0$ in the fractions below then we will get our addition algorithm
 
 That's right! With $d = 0$ it becomes just a circle. That case is also mentioned in Wikipedia article:
 
-![circle addition](/assets/m0lecon-2020-king-exchange/circle-addition.png)
+![circle addition](circle-addition.png)
 
 Ok, now we've got the curve we're working on. $A$, $B$ and $g$ are points on the circle. 
 
@@ -154,7 +154,7 @@ After some searching I've found [a question on StackExchange](https://crypto.sta
 
 There was suggested a map (paragraph 3) from a circle group to $F_p[W]/(W^2 + 1)$ (where $F_p = GF(p)$):
 
-![bijective map](/assets/m0lecon-2020-king-exchange/bijective-map.png)
+![bijective map](bijective-map.png)
 
 So I've tried to rewrite it in sage and run standart `discrete_log` function. 
 

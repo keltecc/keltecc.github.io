@@ -7,7 +7,7 @@ toc = true
 
 ## Initial version
 
-![task title](/assets/m0lecon-2021-obscurity/task-title.png)
+![task title](task-title.png)
 
 ### Files
 
@@ -150,7 +150,7 @@ ptm{pl3453_r3p0r7_y0ur_un1n73nd3d_70_@mr96}
 
 ## Patched version
 
-![task title](/assets/m0lecon-2021-obscurity/task-title-fixed.png)
+![task title](task-title-fixed.png)
 
 ### Files
 
@@ -224,11 +224,11 @@ It looks like something like a _carry_! And we're catching a flashback immediate
 After some searching we can find a paper [Register Synthesis for Algebraic Feedback Shift
 Registers Based on Non-Primes](http://cs.engr.uky.edu/~klapper/pdf/nfcsr.pdf) by Andrew Klapper and Jinzhong Xu. It suggests an algorithm to reconstruct the FCSR:
 
-![algorithm1](/assets/m0lecon-2021-obscurity/algorithm1.png)
+![algorithm1](algorithm1.png)
 
 It requires operation with [p-adic numbers](https://en.wikipedia.org/wiki/P-adic_number). So I thought it's too tricky to implement and found another paper [Cryptanalysis Based on 2-Adic Rational Approximation](https://link.springer.com/content/pdf/10.1007%2F3-540-44750-4_21.pdf) by Andrew Klapper and Mark Goresky. Their algorithm works with `2-adic` numbers, that is ordinary numbers built from bits:
 
-![algorithm2](/assets/m0lecon-2021-obscurity/algorithm2.png)
+![algorithm2](algorithm2.png)
 
 Looks easy to implement, so let's do it! I will use `sage`:
 

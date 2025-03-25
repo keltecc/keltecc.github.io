@@ -5,7 +5,7 @@ tags = ['ctf', 'writeup', 'forensics', 'reverse']
 toc = true
 +++
 
-![task title](/assets/cybrics-2020-incident/task-title.png)
+![task title](task-title.png)
 
 We solved this task with [@pixelindigo](https://t.me/pixelindigo) and [@pavkirill](https://t.me/pavkirill) on behalf of the team [corruptedpwnis](https://ctftime.org/team/87386).
 
@@ -17,7 +17,7 @@ We need to investigate this incident.
 
 ## Finding the backdoor
 
-The author provides us an SSH-connection to a vulnerable box. These boxes are unique for a every team in CTF, so we won't conflict with other teams. The vulnerable box is minimalistic and contains only single binary in root folder called `service` (we immediately downloaded it, [click here to download the binary](/assets/cybrics-2020-incident/service)).
+The author provides us an SSH-connection to a vulnerable box. These boxes are unique for a every team in CTF, so we won't conflict with other teams. The vulnerable box is minimalistic and contains only single binary in root folder called `service` (we immediately downloaded it, [click here to download the binary](service)).
 
 The author said passwords are leaking, so we want to look at running network connections:
 
@@ -378,7 +378,7 @@ And we've got a file `backdoor.bin` with rwx sections. Let's disassemble them.
 
 ## Analyzing the backdoor
 
-The analysis of the backdoor is pretty straightforward, it does not contain any obfuscation. I won't provide a full assembler listing, if you want you can get the raw dump [here](/assets/cybrics-2020-incident/backdoor.bin). The backdoor performs two socket connections:
+The analysis of the backdoor is pretty straightforward, it does not contain any obfuscation. I won't provide a full assembler listing, if you want you can get the raw dump [here](backdoor.bin). The backdoor performs two socket connections:
 
 1. connect to `34.77.100.237:65278` and register
 2. connect to `34.77.100.237:64250` and send data here

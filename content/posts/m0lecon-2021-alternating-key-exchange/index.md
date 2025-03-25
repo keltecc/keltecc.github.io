@@ -5,7 +5,7 @@ tags = ['ctf', 'writeup', 'crypto']
 toc = true
 +++
 
-![task title](/assets/m0lecon-2021-alternating-key-exchange/task-title.png)
+![task title](task-title.png)
 
 ## Files
 
@@ -86,7 +86,7 @@ The first operation is exponentation $x^y$, only two exponents are used: $1$ and
 
 The second operation is multiplication $x \cdot y$, it's just a composition of permutations:
 
-![multiplication](/assets/m0lecon-2021-alternating-key-exchange/multiplication.png)
+![multiplication](multiplication.png)
 
 Note that $\cdot$ is [non-commutative operation](https://en.wikipedia.org/wiki/Commutative_property), it means that $X \cdot Y \neq Y \cdot X$. This property may be obvious from $K$ generation. If $\cdot$ would be commutative, then $K$ always be the same identical element: 
 

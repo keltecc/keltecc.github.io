@@ -5,7 +5,7 @@ tags = ['ctf', 'writeup', 'crypto']
 toc = true
 +++
 
-![task title](/assets/confidence-2020-elgamal/task-title.png)
+![task title](task-title.png)
 
 ## Challenge sources
 
@@ -317,11 +317,11 @@ y^2 = x^3 (mod 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2
 
 So, we can send a point from a [cusp](https://en.wikipedia.org/wiki/Cusp_(singularity)):
 
-![task title](/assets/confidence-2020-elgamal/cusp.png)
+![task title](cusp.png)
 
 Cusp has well-known property, which becomes useful in our case. One can construct a map from the cusp to an additive group. And the discrete logarithm in an additive group is just **division**:
 
-![task title](/assets/confidence-2020-elgamal/map.png)
+![task title](map.png)
 
 _source: [https://crypto.stackexchange.com/a/67120](https://crypto.stackexchange.com/a/67120)_
 
