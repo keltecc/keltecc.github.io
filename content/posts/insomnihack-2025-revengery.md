@@ -1,7 +1,7 @@
 +++
 title = "Insomni'hack 2025 - revengery"
 date = 2025-03-17T19:14:33+03:00
-tags = ['web3', 'crypto']
+tags = ['ctf', 'writeup', 'web3', 'crypto']
 toc = true
 +++
 
