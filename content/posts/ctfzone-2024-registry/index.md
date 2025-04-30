@@ -3,6 +3,7 @@ title = 'CTFZone 2024 Final — registry'
 date = 2024-11-26T00:49:23+03:00
 tags = ['ctf', 'writeup', 'web', 'admin']
 toc = true
+tldr = 'exploiting layer naming in Docker container registry'
 +++
 
 ## Overview

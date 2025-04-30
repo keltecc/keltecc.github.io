@@ -3,6 +3,7 @@ title = 'FAUST CTF 2022 — Notes from the Future'
 date = 2022-09-08T00:00:00+03:00
 tags = ['ctf', 'writeup', 'crypto']
 toc = true
+tldr = 'predicting random output to forge proof of knowledge scheme'
 +++
 
 A challenge from [FAUST CTF 2022](https://ctftime.org/event/1598) attack-defense competition.

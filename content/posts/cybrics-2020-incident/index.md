@@ -3,6 +3,7 @@ title = 'CyBRICS CTF 2020 — Incident'
 date = 2020-07-28T13:32:38+05:00
 tags = ['ctf', 'writeup', 'forensics', 'reverse']
 toc = true
+tldr = 'exploiting buffer overflow to leak a hidden backdoor'
 +++
 
 ![task title](task-title.png)

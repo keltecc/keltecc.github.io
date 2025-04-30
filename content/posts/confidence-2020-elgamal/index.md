@@ -3,6 +3,7 @@ title = 'CONFidence CTF 2020 Finals — ElGamal'
 date = 2020-09-09T01:05:54+05:00
 tags = ['ctf', 'writeup', 'crypto']
 toc = true
+tldr = 'mapping to the additive group using invalid curve attack'
 +++
 
 ![task title](task-title.png)

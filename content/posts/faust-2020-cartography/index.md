@@ -2,6 +2,7 @@
 title = 'FAUST CTF 2020 — Cartography'
 date = 2020-07-20T22:42:25+05:00
 tags = ['ctf', 'writeup', 'pwn']
+tldr = 'arbitrary write using malloc() primitive'
 +++
 
 [FAUST CTF 2020](https://ctftime.org/event/1000) was an online __attack-defense__ CTF, so all challenges during the CTF were presented in the form of network services — each service was listening some TCP port and constantly handling requests. If the service was a web-server, it was running over the HTTP protocol, but in another case it accepted a connection and transmitted data over the TCP protocol.

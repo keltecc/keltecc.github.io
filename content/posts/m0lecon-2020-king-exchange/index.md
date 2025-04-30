@@ -2,6 +2,7 @@
 title = 'm0leCon CTF 2020 Teaser — King Exchange'
 date = 2020-05-24T14:31:17+05:00
 tags = ['ctf', 'writeup', 'crypto']
+tldr = 'recovering group structure of a circle to calculate discrete log'
 +++
 
 ![task title](task-title.png)

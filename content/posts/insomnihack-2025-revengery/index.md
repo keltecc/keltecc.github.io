@@ -3,6 +3,7 @@ title = "Insomni'hack 2025 - revengery"
 date = 2025-03-17T19:14:33+03:00
 tags = ['ctf', 'writeup', 'web3', 'crypto']
 toc = true
+tldr = 'forge ECDSA signature to takeower the ownership of a Solidity contract'
 +++
 
 _TL;DR: A web3 challenge written in Solidity. The main goal is to takeover the ownership of the vulnerable contract using the ECDSA signature forgery._

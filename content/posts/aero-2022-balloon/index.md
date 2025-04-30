@@ -3,6 +3,7 @@ title = 'Aero CTF 2022 — balloon'
 date = 2022-07-31T00:00:00+03:00
 tags = ['ctf', 'writeup', 'pwn']
 toc = true
+tldr = 'memory corruption in CPython exploiting madvise()'
 +++
 
 ## Files

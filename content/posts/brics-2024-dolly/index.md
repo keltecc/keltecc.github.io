@@ -3,6 +3,7 @@ title = 'BRICS+ CTF 2024 — dolly'
 date = 2024-09-12T01:12:00+03:00
 tags = ['ctf', 'writeup', 'reverse']
 toc = true
+tldr = 'reverse engineering of some tricky binary'
 +++
 
 Source code is available here: [https://github.com/C4T-BuT-S4D/bricsctf-2024-quals/tree/master/tasks/reverse/medium-dolly](https://github.com/C4T-BuT-S4D/bricsctf-2024-quals/tree/master/tasks/reverse/medium-dolly).

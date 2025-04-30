@@ -3,6 +3,7 @@ title = 'm0leCon CTF 2021 Teaser — Obscurity'
 date = 2021-05-15T20:59:20+05:00
 tags = ['ctf', 'writeup', 'crypto']
 toc = true
+tldr = 'attacking FCSR state to recover keystream'
 +++
 
 ## Initial version

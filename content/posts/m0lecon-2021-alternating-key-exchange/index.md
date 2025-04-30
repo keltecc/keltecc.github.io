@@ -3,6 +3,7 @@ title = 'm0leCon CTF 2021 Teaser — Alternating key exchange'
 date = 2021-05-15T15:23:55+05:00
 tags = ['ctf', 'writeup', 'crypto']
 toc = true
+tldr = 'using meet-in-the-middle approach to attack non-commutative scheme'
 +++
 
 ![task title](task-title.png)

@@ -3,6 +3,7 @@ title = 'RuCTF Finals 2023 — stalker'
 date = 2023-04-26T00:00:00+03:00
 tags = ['ctf', 'writeup', 'web']
 toc = true
+tldr = 'exploiting race condition in MariaDB primary keys setup'
 +++
 
 The source code is available here: [https://github.com/HackerDom/ructf-finals-2023/tree/master/services/stalker](https://github.com/HackerDom/ructf-finals-2023/tree/master/services/stalker).

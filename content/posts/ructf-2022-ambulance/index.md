@@ -3,6 +3,7 @@ title = 'RuCTF 2022 — ambulance'
 date = 2022-05-22T00:00:00+03:00
 tags = ['ctf', 'writeup', 'pwn', 'crypto']
 toc = true
+tldr = 'exploiting arbitrary free in CPython library to gain RCE'
 +++
 
 ## Source code

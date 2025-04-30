@@ -2,6 +2,7 @@
 title = 'BRICS+ CTF 2024 — gollum'
 date = 2024-09-05T02:04:00+03:00
 tags = ['ctf', 'writeup', 'pwn']
+tldr = 'pwning the Golang application with a compiler bug'
 +++
 
 Source code is available here: [https://github.com/C4T-BuT-S4D/bricsctf-2024-quals/tree/master/tasks/pwn/easy-gollum](https://github.com/C4T-BuT-S4D/bricsctf-2024-quals/tree/master/tasks/pwn/easy-gollum).

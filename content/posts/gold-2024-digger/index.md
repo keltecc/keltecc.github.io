@@ -3,6 +3,7 @@ title = 'Gold CTF 2024 — digger'
 date = 2024-02-10T00:00:00+03:00
 tags = ['ctf', 'writeup', 'crypto', 'reverse']
 toc = true
+tldr = 'reversing crypto binary to achieve slide attack primitive'
 +++
 
 Service `digger` is an Encryption-as-a-Service application.

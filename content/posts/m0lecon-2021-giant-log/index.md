@@ -3,6 +3,7 @@ title = 'm0leCon CTF 2021 Teaser — Giant log'
 date = 2021-05-15T17:18:14+05:00
 tags = ['ctf', 'writeup', 'crypto']
 toc = true
+tldr = 'calculate discrete log using p-adics'
 +++
 
 ![task title](task-title.png)

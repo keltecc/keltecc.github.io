@@ -3,6 +3,7 @@ title = 'BRICS+ CTF 2024 — villa & mirage & excess'
 date = 2024-09-13T00:00:00+03:00
 tags = ['ctf', 'writeup', 'web']
 toc = true
+tldr = 'writeup for all web challenges from BRICS+ CTF'
 +++
 
 ## villa
