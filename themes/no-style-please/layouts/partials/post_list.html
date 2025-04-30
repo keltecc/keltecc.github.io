@@ -27,9 +27,12 @@
     {{ end }}
     <ul>
         {{- range $post := $posts -}}
-        <li>
+        <li class="post-li">
             <span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
-            <a href="{{ $post.Permalink | relURL }}">{{ $post.Title }}</a>
+            <span>
+                <a href="{{ $post.Permalink | relURL }}">{{ $post.Title }}</a>
+                {{- if $post.Params.Tldr }} <p class="tldr">// {{ $post.Params.Tldr }}</p> {{ end }}
+            </span>
         </li>
         {{ end }}
         {{- if .show_more_text }}

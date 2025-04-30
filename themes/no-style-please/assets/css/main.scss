@@ -190,3 +190,20 @@ details[open] summary {
 .tags span {
   text-decoration: underline;
 }
+
+.post-li {
+  display: list-item;
+  margin-bottom: 0.8em;
+}
+
+.post-li span {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tldr {
+  margin: 0;
+  margin-top: 0.2em;
+  font-style: italic;
+  color: #aaaaaa;
+}
