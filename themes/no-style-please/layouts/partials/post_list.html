@@ -28,10 +28,10 @@
     <ul>
         {{- range $post := $posts -}}
         <li class="post-li">
-            <span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
+            {{- if $post.Content }}<span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>{{ end }}
             <span>
                 <a href="{{ $post.Permalink | relURL }}">{{ $post.Title }}</a>
-                {{- if $post.Params.Tldr }} <p class="tldr">// {{ $post.Params.Tldr }}</p> {{ end }}
+                {{- if $post.Params.Tldr }}<p class="tldr">// {{ $post.Params.Tldr }}</p>{{ end }}
             </span>
         </li>
         {{ end }}

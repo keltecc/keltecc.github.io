@@ -6,11 +6,13 @@
             <div class="w">
                 <div class="post-meta">
                     {{ partial "back_link.html" .}}
+                    {{- if .Content }}
                     <p>
                         <time datetime="{{ .Date }}">
                             {{ .Date | time.Format site.Params.theme_config.date_format }}
                         </time>
                     </p>
+                    {{ end }}
                 </div>
                 {{- block "main" . }}{{- end }}
             </div>

@@ -10,7 +10,10 @@
     <p>{{ .Key }}</p>
     <ul>
         {{ range .Pages }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{- if .Params.Tldr }} <p class="tldr">// {{ .Params.Tldr }}</p> {{ end }}
+            </li>
         {{ end }}
     </ul>
     {{ end }}
