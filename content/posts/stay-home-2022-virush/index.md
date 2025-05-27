@@ -163,7 +163,7 @@ Hide the `.hash` file somehow (rename/move/etc).
 
 TLDR:
 
-1. The service doesn't quote arguments of commands (for example: `openssl ${CipherAlgorithm} -e -iter 16 -k ${key} -iv ${iv}`)
+1. The service doesn't quote arguments of commands (for example: `openssl \${CipherAlgorithm} -e -iter 16 -k \${key} -iv \${iv}`)
 2. So we can control arguments of most commands, it may lead to vulnerability
 3. `dd` command is interesting: we can set `of=/proc/self/mem` and overwrite the process memory!
 4. Also we can set `seek=0x7ffc00000000` to jump somewhere near the stack (this is a lower bound address)
