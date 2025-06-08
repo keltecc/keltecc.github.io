@@ -3,7 +3,7 @@ title = 'VKACTF 2025 — Гусиные Кривые'
 date = 2025-06-08T17:17:28+03:00
 tags = ['ctf', 'writeup', 'crypto']
 toc = true
-tldr = 'bebrus'
+tldr = 'applying linearization to solve a system of elliptic curve equations'
 +++
 
 ## Overview
