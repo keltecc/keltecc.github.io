@@ -263,6 +263,6 @@ r3ctf{THE_v3rlflER_oWns-ThE-tRuST_bUt_Y0U-0WN-th3-ram55}
 
 ## Intended solution
 
-It turns out that the solution above is unintended (the flag mentions RAM). The indended solution is hot reload forensics (dump RAM memory after the rebooting and extract the `module_secret`).
+It turns out that the solution above is unintended (the flag mentions RAM). The indended solution is hot boot forensics (dump RAM memory after the rebooting and extract the `module_secret`).
 
 Anyway I want to thank the author [**@starcatmeow**](https://github.com/starcatmeow) for this great and fun challenge.
